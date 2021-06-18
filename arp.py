@@ -24,7 +24,7 @@ try:
 
     print("----Poisoning ARP Tables of " + target_ip + " and " + gateway_ip + "----")
     print("----Open network sniffing tool like WireShark for MITM traffic capture----")
-    print("----Try filtering with ip.src == " + target_ip + "----")
+    print("----Try filtering with ip.src == " + target_ip + " or ip.dst == "+ target_ip +" ----")
 
 
 
